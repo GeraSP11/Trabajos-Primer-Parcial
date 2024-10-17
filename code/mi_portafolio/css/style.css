@@ -1,15 +1,13 @@
 :root {
-    --color_0: #3F3D56;
-    --color_1: #6C63FF;
+    --color_0: #3e3e3e;
     --color_2: #2F2E41;
     --color_3: #CCCCCC;
-    --color_4: #FFB9B9;
 }
 
 /* Navbar */
 .navbar {
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: white;
 }
 
 .navbar-nav {
@@ -23,36 +21,52 @@
 
 /* MyClass */
 .myclass {
-    background-color: #f5f6f7;
+    background-color: white;
     min-height: 450px;
     text-align: center;
 }
 
 .myclass-main {
-    padding: 3rem;
+    padding: 0rem;
+}
+
+.myclass-main h1{
+    color: #2c223a;
 }
 
 .myclass-main h2 {
-    font-size: 1.5rem;
-    color: var(--color_1);
+    font-size: 1rem;
+    color: #3e3e3e;
 }
 
 .myclass-pic {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     margin: 20px;
 }
 
+.myclass-imagen{
+    padding-top: 3rem;
+    width: 900px;
+    height: 400px;
+}
 
 .about-me {
-    height: 500px;
-    padding: 10px;
+    height: 400px;
+    padding-top: 0%;
+    color: #308ae7;
+}
+
+.section-oscura-inicio{
+    color: white;
+    background-color: #3e3e3e;
+    border-radius: 2%;
 }
 
 .section-oscura {
     color: white;
-    background-color: var(--color_0);
+    background-color: #2c2c2c;
 }
 
 .about-me .contenedor {
@@ -87,7 +101,7 @@
 
 .experiencia i {
     font-size: 2.5rem;
-    color: var(--color_1);
+    color: #cbcdcf;
     background-color: var(--color_0);
     padding: 8px 19px;
     border-radius: 25%;
@@ -110,6 +124,7 @@
 }
 
 .badge {
+    background-color: #2c223a;
     margin: 5px;
 }
 
@@ -121,13 +136,13 @@
     height: 100%;
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10%;
     display: block;
     transition: all 0.2s ease;
 }
 
 .proyectos-contenedor {
-    padding-top: 60px;
+    padding-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -179,7 +194,7 @@ h1 {
 
 .btn-info {
     background-color: #2F2E41;
-    color: #6C63FF;
+    color:wheat;
     border: #2F2E41;
     font-size: 1.1rem;
     margin: 20px;
@@ -187,9 +202,9 @@ h1 {
 }
 
 .btn-info:hover {
-    background-color: #6C63FF;
+    background-color: #308ae7;
     color:  #2F2E41;
-    border: #6C63FF;
+    border: #308ae7;
 }
 
 .tips {
@@ -213,7 +228,7 @@ h1 {
 
 .recomendaciones .carousel {
     max-width: 800px;
-    color:#6C63FF
+    color:#308ae7;
 }
 
 .carousel-item {
@@ -236,6 +251,7 @@ h1 {
 }
 
 .recomendacion-texto {
+    padding-top: 2rem;
     max-width: 70%;
     font-size: 20px;
     text-align: center;
@@ -269,7 +285,7 @@ h1 {
 
 .contact .rectangulo {
     margin-top: -5rem;
-    background-color: var(--color_1);
+    background-color: #3e3e3e;
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px var(--color_3);
 }
@@ -354,7 +370,7 @@ footer {
 
 .author {
     font-size: 15px;
-    color: var(--color_4);
+    color: wheat;
     padding: 20px;
 }
 
